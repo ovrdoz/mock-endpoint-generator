@@ -11,7 +11,7 @@ Mock-Endpoint-Generator is a Flask-based application that dynamically creates mo
 
 You can install Flask using pip if you don't have it already:
 ```bash
-pip install flask
+pip install flask watchdog
 ```
 
 ### Installation
