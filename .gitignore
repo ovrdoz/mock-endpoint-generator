@@ -1,1 +1,2 @@
 data/*.mok
+!data/sample.mok
