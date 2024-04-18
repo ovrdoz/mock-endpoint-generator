@@ -23,7 +23,7 @@ cd mock-endpoint-generator
 
 ### Usage
 1. **Prepare Mok Files:**
-   Place your Mok files in the data directory. To define the API endpoint for each file, start the file with a comment line that specifies the route. This route comment dictates the endpoint path that the API will serve. For example, if the first line of your Mok file is # /api/get-user, the content of the file will be available at http://localhost:5000/api/get-user. This method allows you to dynamically create and update endpoints simply by adding or modifying Mok files in the data directory. Here's how you format the file:
+   Place your Mok files in the data directory. To define the API endpoint for each file, start the file with a comment line that specifies the route. This route comment dictates the endpoint path that the API will serve. For example, if the first line of your Mok file is # /api/get-user, the content of the file will be available at http://localhost:5001/api/get-user. This method allows you to dynamically create and update endpoints simply by adding or modifying Mok files in the data directory. Here's how you format the file:
    ```bash
    # /api/get-user
    {
@@ -34,7 +34,7 @@ cd mock-endpoint-generator
    ```
 
 2. **Configure the Server:**
-   You can configure the port by setting the `PORT` environment variable. If no port is set, the default Flask port (5000) will be used.
+   You can configure the port by setting the `PORT` environment variable. If no port is set, the default port (5001) will be used.
    ```bash
    export PORT=8000  # Set your desired port
    ```
