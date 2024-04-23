@@ -1,6 +1,0 @@
-# /api/get-user GET 200
-{
-    "id": "uuid-1234",
-    "email": "user@example.com",
-    "roles": ["admin", "user"]
-}
